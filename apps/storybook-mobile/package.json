@@ -6,9 +6,40 @@
     "@react-native/metro-config": "*",
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
+    "metro-config": "*",
     "react": "*",
     "react-native": "*",
     "react-native-svg": "*",
-    "metro-config": "*"
+    "react-native-svg-transformer": "*",
+    "@babel/core": "*",
+    "react-dom": "*",
+    "@react-native-community/slider": "*",
+    "@storybook/react-native": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "react-native-safe-area-context": "*",
+    "@react-native-community/datetimepicker": "*",
+    "@storybook/addon-actions": "*",
+    "@storybook/addon-controls": "*",
+    "@storybook/addon-ondevice-actions": "*",
+    "@storybook/addon-ondevice-controls": "*",
+    "babel-loader": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@react-native-async-storage/async-storage": "^1.19.7",
+    "@react-native-community/datetimepicker": "^7.6.1",
+    "@react-native-community/slider": "^4.4.3",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-controls": "^6.5.16",
+    "@storybook/addon-ondevice-actions": "^6.5.7",
+    "@storybook/addon-ondevice-controls": "^6.5.7",
+    "@storybook/react-native": "^6.5.7",
+    "babel-loader": "^8.3.0",
+    "react-dom": "^18.2.0",
+    "react-native-safe-area-context": "^4.7.4"
+  },
+  "scripts": {
+    "storybook-generate": "sb-rn-get-stories",
+    "storybook-watch": "sb-rn-watcher"
   }
 }
